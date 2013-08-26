@@ -1,0 +1,10 @@
+<aspectj>
+<aspects>
+<aspect name="com.start.home.DomainModel_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.start.home.DomainModel_Roo_Jpa_Entity"/>
+<aspect name="com.start.home.DomainModel_Roo_Configurable"/>
+<aspect name="com.start.home.DomainModel_Roo_ToString"/>
+<aspect name="com.start.home.DomainModel_Roo_JavaBean"/>
+</aspects>
+</aspectj>
+

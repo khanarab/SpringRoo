@@ -13,3 +13,8 @@ field string --fieldName lname
 hint
 hint web mvc
 web mvc setup
+entity jpa --class ~.Customer --
+field number --fieldName id --type int
+field string --fieldName fname
+field string --fieldName lname
+web mvc all --package com.start.home
