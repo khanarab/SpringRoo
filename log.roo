@@ -1,0 +1,15 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-08-26 20:02:22
+project --topLevelPackage com.start.home --projectName SpringRoo --java 7 --packaging JAR
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-08-26 20:02:54
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-08-26 20:03:04
+hint 
+jpa setup --provider HIBERNATE --database MYSQL --userName root --password admin --databaseName test
+hint
+// [failed] entity jpa --class com.start.home.domain --entityName Customer
+entity jpa --class com.start.home.domainModel --entityName Customer
+field number --fieldName id --type int
+field string --fieldName fname 
+field string --fieldName lname 
+hint
+hint web mvc
+web mvc setup
